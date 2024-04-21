@@ -26,7 +26,7 @@
     "config:rw"
   ],
   "ports": {
-    "8485/tcp": 8182,
+    "8485/tcp": 8385,
     "8099/tcp": null
   },
   "ports_description": {
@@ -34,7 +34,7 @@
     "8099/tcp": "Frontend tcp-listen port"
   },
   "options": {
-    "data_path": "/config/zigbee2mqtt",
+    "data_path": "/config/zigbee2mqtt1.32a",
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
